@@ -1,0 +1,4 @@
+npm init -y
+npm install -D tailwindcss postcss autoprefixer
+npm run build:css
+npx tailwindcss -i ./static/css/tailwind.css -o ./static/css/output.css --watch
